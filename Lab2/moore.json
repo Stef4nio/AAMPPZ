@@ -1,0 +1,60 @@
+{
+  "start_states": [
+    "A^a"
+  ],
+  "states": [
+    "A^a",
+    "B^a"
+  ],
+  "input_letters": [
+    "0",
+    "1"
+  ],
+  "output_letters": [
+    "a"
+  ],
+  "transition_function": [
+    [
+      "A^a",
+      "0",
+      "A^a"
+    ],
+    [
+      "B^a",
+      "0",
+      "B^b"
+    ],
+    [
+      "A^a",
+      "1",
+      "B^a"
+    ],
+    [
+      "B^a",
+      "1",
+      "A^b"
+    ]
+  ],
+  "output_function": [
+    [
+      "A^a",
+      "0",
+      "a"
+    ],
+    [
+      "B^a",
+      "0",
+      "b"
+    ],
+    [
+      "A^a",
+      "1",
+      "a"
+    ],
+    [
+      "B^a",
+      "1",
+      "b"
+    ]
+  ]
+}
